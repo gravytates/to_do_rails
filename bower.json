@@ -1,0 +1,14 @@
+{
+  "name": "to_do",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/gravytates/to_do_rails",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
