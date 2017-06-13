@@ -6,7 +6,7 @@
   <ul>
     <% @list.tasks.each do |task| %>
       <li>
-        <%= task.description %> | <%= link_to "Edit", edit_list_path(@list, task) %> | <%= link_to "Delete", list_task_path(@list, task), :data => {:confirm => "Sure?", :method => "delete"} %>
+        <%= task.description %> | <%= link_to "Edit", edit_list_task_path(@list, task) %> | <%= link_to "Delete", list_task_path(@list, task), :data => {:confirm => "Sure?", :method => "delete"} %>
       </li>
     <% end %>
   </ul>
